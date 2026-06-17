@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>NZ GORHAM PORTFOLIO</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/stylehighschool.css">
+</head>
+
+<body class="BODY">
+  <header>
+    <h1 class="h-HEADER">NZ GORHAM PORTFOLIO</h1>
+    <nav class="nav-button">
+      <button class="nav-button-style">
+        <a href="index.html">HOME</a>
+      </button>
+      <button class="nav-button-style">
+        <a href="skills.html">SKILLS</a>
+      </button>
+      <button class="nav-button-style">
+        <a href="personal-projects.html">PERSONAL PROJECTS</a>
+      </button>
+      <button class="nav-button-style">
+        <a href="college.html">COLLEGE</a>
+      </button>
+      <button class="nav-button-style">
+        <a href="high-school.html">HIGH SCHOOL</a>
+      </button>
+      <button class="nav-button-style">
+        <a href="awards-and-certificates.html">AWARDS AND CERTIFICATES</a>
+      </button>
+    </nav>
+  </header>
+  <main>
+    <div class="HS">
+        <h2 class="h2-HS">Whitefish Bay High School</h2>
+        <img class="WFB-LOGO" src="Photos/Whitefish_Bay_High_School_Logo.png" alt="High School">
+        <p class="p-HS">
+            I attended Whitefish Bay High School in Whitefish Bay, Wisconsin.
+            Click on the tabs below to learn more about the projects I worked on, 
+        </p>
+        
+        <!-- I got this from Geeks for Geek-->
+        <div class="tab">
+            <button class="tablinks" onclick="openCity(event, 'CLASS PROJECTS')">CLASS PROJECTS</button>
+            <button class="tablinks" onclick="openCity(event, 'SPORTS')">SPORTS</button>
+        </div>
+
+        <div id="CLASS PROJECTS" class="tabcontent">
+            <h3 class="h3-HS">
+                CLASS PROJECTS
+            </h3>
+            <p class="p-HS">
+                I created two big projects in high school. 
+                When the COVID-19 came in during my freshman year, I created a physical board game for my passion project in Biology class called "BIOLOGY ISLAND: BALANACING CHEMICAL EQUATIONS EDITION" where students can learn and improve their knowledge on math and chemical equations. I can't exactly remember how long it took me to make the board game, but if I were to guess, it took me like 1.5 months to do it.
+                The other one is a Pokemon Pokedex Randomizer app that I coded in JavaScript for my AP Computer Science Principles class. Feel free to check out my 
+                <a href = "https://studio.code.org/projects/applab/HSJswioAD8AKsQDeApIlrBMnq9REffo6-tOFc1wl-X8" target="_blank" style="color: white"> 
+                    Pokemon Pokedex Randomizer app 
+                </a> !
+            </p>
+        </div>
+
+        <div id="SPORTS" class="tabcontent">
+            <h3 class="h3-HS">
+                SPORTS
+            </h3>
+            <p class="p-HS">
+                
+            </p>
+        </div>
+
+        <div id="SPORTS" class="tabcontent">
+            <h3 class="h3-HS">
+                WHITEFISH BAY WRESTLING PROGRAM
+            </h3>
+            <p class="p-HS">
+                How I got involved with the Minnesota Wrestling Program is an interesting story. 
+                In my Senior year, while WIAA Regionals was still going on, my head coach asked if I was interested in being a Team Manager for the Minnesota Wrestling Program. I said yes because I like wrestling, I have friends from Askren Wrestling Academy that committed to the program, and I want to continue wrestling in college even though if I don't compete. 
+                Thanks to the help from my head coach and Charild Millard, I finally got in contact with one of the coaches of the Minnesota Wrestling Program. It was Trevor Brandvold. 
+                On September 15, 2023, I finally got to meet Trevor in-person, attend practice, and meet all the coaches and wrestlers who were there at the time. Gable Steveson, the <b> GOLD MEDALIST </b> happened to be there and I was so amazed to meet him in-person at my first practice. I couldn't be more excited than ever.
+                I have joined the program in Fall 2023 as a Team Manager. From there on, I got to help organize the office, take pictures at the open practice that we host in late October, attend home dual meets to operate TrackWrestling, and go to tournaments with the team if they need an extra hand to record matches.
+                I gotta say, being a Team Manager for the Minnesota Wrestling Program is one of the best decisions I have made in my colleg life not just because I can be teammates with my Askren Wrestling Academy friends (Ethan Riddle, Charlie Millard, Wyatt DuChateau, and Silas Dailey), but also because I have connections with famous people like Gable Steveson, Michael Blockus, Patrick McKee, Andrew Sparks, Vance Vombaur, Max Mcenelly, etc.
+        </div>
+
+        <div id="CAMPUS CLEANUP CREW" class="tabcontent">
+            <h3 class="h3-COLLEGE">
+                CAMPUS CLEANUP CREW
+            </h3>
+            <p class="p-HS">
+                Campus Cleanup Crew is a voulteering club that picks up trash around the campus of the University of Minnesota. I also joined this club in Fall 2023 thanks to my dorm room friend telling about this club. 
+                I like this club because I care about the environment, it's good voulteering experience, I get to meet new people, and it's nice to be outside. 
+                By the end of the Spring 2025 semester, all the executive members graduated and I was interested in continuing the club, so I decided to become the President of the club. 
+                As the President, I am responsible for filling out the grants for the Office of Sustainability, collaborate with the other board members on planning out the events, what food to order, and the weather conditions, and provide a cleaning, positive environment for the club and campus.
+                If you are a student at the University of Minnesota, I highly recommend you to join this club because it's a great way to meet new people, help the environment, get some volunteer hours in, and a leadership role.
+            </p> 
+        </div>
+    </div>
+
+    <!-- I got this from Geeks for Geek-->
+    <script>
+        function openCity(evt, cityName) {
+        var i, tabcontent, tablinks;
+        tabcontent = document.getElementsByClassName("tabcontent");
+        for (i = 0; i < tabcontent.length; i++) {
+            tabcontent[i].style.display = "none";
+        }
+        tablinks = document.getElementsByClassName("tablinks");
+        for (i = 0; i < tablinks.length; i++) {
+            tablinks[i].className = tablinks[i].className.replace(" active", "");
+        }
+        document.getElementById(cityName).style.display = "block";
+        evt.currentTarget.className += " active";
+        }
+    </script>
+  </main>
+  <footer class="FOOTER">
+        <div class="CONTACT-AND-SOCIAL-MEDIA">
+            <div>
+                <h1 class="h-SMCI">
+                    SOCIAL MEDIA AND CONTACT INFORMATION
+                </h1>
+                <p class="p-SMCI">
+                    Here is all my social media and contact information. Please feel free to reach out to me through any of these platforms and give me a follow <br>
+                </p>
+                <div class="button-section">
+                    <button class="LinkedIn-button"> 
+                        <a href = "https://www.linkedin.com/in/nz-gorham/" target="_blank">
+                            LinkedIn
+                        </a>
+                    </button>
+                    <button class="Github-button"> 
+                        <a href = "https://github.com/NZGOCoding" target="_blank">
+                            Github
+                        </a>
+                    </button>
+                    <button class="Gmail-button"> 
+                        <a href = "mailto: n.z.gorham@gmail.com" target="_blank">
+                            <span style="color:	#4285F4">G</span>
+                            <span style="color: #C5221F">M</span>
+                            <span style="color:#EA4335">A</span>
+                            <span style="color:	#FBBC04">I</span>
+                            <span style="color:	#34A853">L</span>
+                        </a>
+                    </button>
+                    <button class="Instagram-button"> 
+                        <a href = "https://www.instagram.com/nzgo18/?hl=en" target="_blank">
+                            Instagram
+                        </a>
+                    </button>
+                    <button class="YouTube-button"> 
+                        <a href = "https://www.youtube.com/@nzgorham" target="_blank">
+                            YouTube
+                        </a>
+                    </button>
+                </div>
+            </div>
+        </div>
+  </footer>
+
+</body>
+
+</html>
