@@ -1,0 +1,55 @@
+/* DESCRIPTION */
+.DESCRIPTION{
+    margin: 50px auto;
+    background: linear-gradient(to right, rgb(0, 0, 255), #7A0019);
+    border: 3px solid black;
+    padding: 1em;
+    overflow: hidden;
+}
+.NZG-IMAGE{
+    max-width: 400px;
+    margin-left: 40px;
+    float: left;
+    border-radius: 20px;
+    border: 3px solid whitesmoke;
+    margin-right: 5%;
+}
+.h-DESCRIPTION{
+    font-size: 48px;
+    text-align: center;
+    color: white;
+    text-shadow: 5px 5px 5px rgb(153, 153, 153);
+}
+.p-DESCRIPTION{
+    font-size: 24px;
+    padding: 5px;
+    color: white;
+    text-shadow: 5px 5px 5px rgb(153, 153, 153);
+}
+
+/* UPDATE AND PLANS */
+.Update {
+    margin: 50px auto;
+    background: white;
+    border: 3px solid black;
+    padding: 1em;
+    overflow: hidden;
+}
+.h2-Update {
+    font-size: 48px;
+    padding: 5px;
+    text-align: center;
+}
+.h3-Update {
+    font-size: 36px;
+    padding: 5px;
+    text-align: center;
+}
+.p-Update {
+   font-size: 24px;
+   padding: 5px;
+}
+.ul-Update {
+   font-size: 24px;
+   padding: 5px;
+}

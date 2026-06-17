@@ -1,0 +1,248 @@
+/* BODY */
+.BODY{
+    background-color: #4a78b3;
+}
+
+/* HEADER */
+.h-HEADER{
+    font-size: 60px;
+    font-weight: bold;
+    text-align: center;
+    color: black;
+    text-shadow: 5px 5px 5px rgb(153, 153, 153);
+    padding: 5px;
+}
+.nav-button{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
+}
+.nav-button-style{
+    background-color: #1877f2;
+    border-color: #000000;
+    border-style: solid;
+    border-width: 1px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: opacity 0.15s, background-color 0.15s, color 0.15s;
+}
+.nav-button-style:hover {
+    background-color: white;
+    color: #1877f2;
+    box-shadow: 5px 5px 10px rgb(0, 0, 0, 1);
+    opacity: 0.5;
+}
+.nav-button-style:active {
+    opacity: 0.7;
+}
+
+/* FOOTER */
+.CONTACT-AND-SOCIAL-MEDIA a{
+    text-decoration: none;
+    color: inherit;
+}
+.h-SMCI{
+    font-size: 60px;
+    padding: 5px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    text-shadow: 5px 5px 5px whitesmoke;
+}
+.p-SMCI{
+    font-size: 24px;
+    text-align: center;
+    padding: 5px;
+    color: black;
+    text-shadow: 5px 5px 5px whitesmoke;
+}
+.button-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin-top: 20px;
+}
+.Facebook-button {
+    background-color: #1877f2;
+    border-color: #000000;
+    border-style: solid;
+    border-width: 1px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: opacity 0.15s, background-color 0.15s, color 0.15s;
+}
+.Facebook-button:hover {
+    background-color: white;
+    color: #1877f2;
+    box-shadow: 5px 5px 10px rgb(0, 0, 0, 1);
+    opacity: 0.5;
+}
+.Facebook-button:active {
+    opacity: 0.7;
+}
+.LinkedIn-button {
+    background-color: #0077b5;
+    border-color: #000000;
+    border-style: solid;
+    border-width: 1px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: opacity 0.15s, background-color 0.15s, color 0.15s;
+}
+.LinkedIn-button:hover {
+    background-color: white;
+    color: #0077b5;
+    box-shadow: 5px 5px 10px rgb(0, 0, 0, 1);
+    opacity: 0.5;
+}
+.LinkedIn-button:active {
+    opacity: 0.7;
+}
+.Github-button {
+    background-color: black;
+    border-color: gray;
+    border-style: solid;
+    border-width: 1px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: opacity 0.15s, background-color 0.15s, color 0.15s;
+}
+.Github-button:hover {
+    background-color: white;
+    color: black;
+    border-color: black;
+    box-shadow: 5px 5px 10px rgb(0, 0, 0, 1);
+    opacity: 0.5;
+}
+.Github-button:active {
+    opacity: 0.7;
+}
+.Gmail-button {
+    background-color: white;
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: opacity 0.15s, box-shadow 0.15s;
+}
+.Gmail-button:hover {
+    opacity: 0.5;
+    box-shadow: 5px 5px 10px rgb(0, 0, 0, 1);
+}
+.Gmail-button:active {
+    opacity: 0.7;
+}
+.Instagram-button {
+    background: linear-gradient(to right, #405DE6, #5B51D8, #833AB4, #C13584, #E1306C, #FD1D1D, #F56040, #F77737, #FCAF45, #FFDC80);
+    border-color: black;
+    border-style: solid;
+    color: white;
+    border-width: 1px;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: opacity 0.15s, box-shadow 0.15s, color 0.15s;
+}
+.Instagram-button:hover {
+    opacity: 0.5;
+    box-shadow: 5px 5px 10px rgb(0, 0, 0, 1);
+    background: linear-gradient(to left, #405DE6, #5B51D8, #833AB4, #C13584, #E1306C, #FD1D1D, #F56040, #F77737, #FCAF45, #FFDC80);
+}
+.Instagram-button:active {
+    opacity: 0.7;
+}
+.YouTube-button {
+    background-color: #FF0000;
+    border-color: black;
+    border-style: solid;
+    color: white;
+    border-width: 1px;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: opacity 0.15s, background-color 0.15s, color 0.15s;
+}
+.YouTube-button:hover {
+    background-color: white;
+    color: #FF0000;
+    border-color: black;
+    box-shadow: 5px 5px 10px rgb(0, 0, 0, 1);
+    opacity: 0.5;
+}
+.YouTube-button:active {
+    opacity: 0.7;
+}
+.Twitter-button {
+    background-color: #000000;
+    border-color: gray;
+    border-style: solid;
+    color: white;
+    border-width: 1px;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: opacity 0.15s, background-color 0.15s, color 0.15s;
+}
+.Twitter-button:hover {
+    background-color: #1DA1F2;
+    border-color: black;
+    border-style: solid;
+    box-shadow: 5px 5px 10px rgb(0, 0, 0, 1);
+    opacity: 0.5;
+}
+.Twitter-button:active {
+    opacity: 0.7;
+}

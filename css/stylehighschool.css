@@ -1,0 +1,36 @@
+/* HIGH SCHOOL */
+.HS{
+    background-color:  rgb(0, 0, 255);
+    border: 3px solid black;
+    padding: 1em;
+    width: fit-content;
+    height: fit-content;
+    overflow: hidden;
+}
+.h2-HS{
+    font-size: 48px;
+    padding: 5px;
+    text-align: center;
+    color: white;
+    text-shadow: 5px 5px 5px black;
+}
+.h3-HS{
+    font-size: 36px;
+    padding: 5px;
+    text-align: center;
+    color: white;
+    text-shadow: 5px 5px 5px black;
+}
+.WFB-LOGO{
+    max-width: 400px;
+    margin: 40px auto;
+    display: block;
+    text-align: center;
+    background-color: white;
+}
+.p-HS{
+    font-size: 24px;
+    padding: 5px;
+    color: white;
+    text-shadow: 5px 5px 5px black;
+}

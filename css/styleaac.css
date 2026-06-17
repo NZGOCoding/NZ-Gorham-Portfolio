@@ -1,0 +1,30 @@
+/* AWARDS AND CERTIFICATES */
+.AAC{
+    margin: 50px auto;
+    background-color:  #7A0019;
+    border: 3px solid black;
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+    overflow: hidden;
+}
+.h2-AAC{
+    font-size: 48px;
+    padding: 5px;
+    text-align: center;
+    color: #FFCC33;
+    text-shadow: 5px 5px 5px black;
+}
+.p-AAC{
+    font-size: 24px;
+    padding: 5px;
+    color: #FFCC33;
+    text-shadow: 5px 5px 5px black;
+}
+.h3-AAC{
+    font-size: 36px;
+    padding: 5px;
+    text-align: center;
+    color: #FFCC33;
+    text-shadow: 5px 5px 5px black;
+}

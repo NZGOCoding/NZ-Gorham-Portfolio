@@ -1,0 +1,66 @@
+/* COLLEGE */
+.COLLEGE{
+    margin: 50px auto;
+    background-color:  #7A0019;
+    border: 3px solid black;
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+    overflow: hidden;
+}
+.h2-COLLEGE{
+    font-size: 48px;
+    padding: 5px;
+    text-align: center;
+    color: #FFCC33;
+    text-shadow: 5px 5px 5px black;
+}
+.UMN-LOGO{
+    max-width: 400px;
+    margin: 40px auto;
+    display: block;
+    text-align: center;
+}
+.p-COLLEGE{
+    font-size: 24px;
+    padding: 5px;
+    color: #FFCC33;
+    text-shadow: 5px 5px 5px black;
+}
+.h3-COLLEGE{
+    font-size: 36px;
+    padding: 5px;
+    text-align: center;
+    color: #FFCC33;
+    text-shadow: 5px 5px 5px black;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+}

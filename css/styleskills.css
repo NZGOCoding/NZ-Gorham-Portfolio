@@ -1,0 +1,27 @@
+/* SKILLS */
+.SKILLS {
+    margin: 100px auto;
+    background: white;
+    border: 3px solid black;
+    padding: 1em;
+    width: fit-content;
+    height: fit-content;
+}
+.h2-SKILLS {
+    font-size: 48px;
+    padding: 5px;
+    text-align: center;
+}
+.h3-SKILLS {
+    font-size: 36px;
+    padding: 5px;
+    text-align: center;
+}
+.p-SKILLS {
+   font-size: 24px;
+   padding: 5px;
+}
+.ul-Update {
+   font-size: 24px;
+   padding: 5px;
+}
