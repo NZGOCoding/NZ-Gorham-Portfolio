@@ -1,0 +1,23 @@
+/* PERSONAL PROJECTS */
+.PP {
+    margin: 100px auto;
+    background: white;
+    border: 3px solid black;
+    padding: 1em;
+    width: fit-content;
+    height: fit-content;
+}
+.h2-PP {
+    font-size: 48px;
+    padding: 5px;
+    text-align: center;
+}
+.h3-PP {
+    font-size: 36px;
+    padding: 5px;
+    text-align: center;
+}
+.p-PP {
+   font-size: 24px;
+   padding: 5px;
+}
